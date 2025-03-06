@@ -1,0 +1,997 @@
+@keyframes colors{
+    0%{
+        box-shadow: 0px 5px 5px rgba(252, 250, 250, 0.5), inset 0px 0px 20px rgba(255, 254, 254, 0.5);
+    }
+    25%{
+        box-shadow: 0px 5px 5px rgba(35, 0, 233, 0.5), inset 0px 0px 15px rgba(35, 0, 233, 0.5);
+    }
+    50%{
+        box-shadow: 0px 5px 5px rgba(13, 0, 70, 0.5), inset 0px 0px 10px rgba(13, 0, 70, 0.5);
+    }
+    75%{
+        box-shadow: 0px 5px 5px rgba(35, 0, 233, 0.5), inset 0px 0px 15px rgba(35, 0, 233, 0.5);
+    }
+    100%{
+        box-shadow: 0px 5px 5px rgba(252, 250, 250, 0.5), inset 0px 0px 20px rgba(255, 254, 254, 0.5);
+    }
+}
+
+
+.btn{
+    font-display: none;
+}
+
+.creator-info {
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.layer-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.layer-item {
+    transition: 1s;
+    padding: 10px;
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 14%, rgba(0,0,0,1) 26%, rgba(11,11,13,1) 39%, rgba(11,11,22,1) 49%, rgba(33,33,114,1) 61%, rgba(5,106,185,1) 74%, rgba(55,162,237,1) 88%, rgba(0,212,255,1) 100%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: -1px 0px 10px blue;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+.layer-item:hover{
+    transition: 1s;
+    box-shadow: -1px 0px 20px rgb(0, 183, 255);
+    
+    
+}
+
+.buttons-container {
+    margin-top: 20px;
+    text-align: center;
+}
+.tela{
+    justify-content: center;
+    text-align: center;
+}
+/*Icones*/
+/*--------------------------------------------------------------------------*/
+.contact-icon {
+    width: 20px;
+   margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+
+.container{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.315);
+}
+/*--------------------------------------------------------------------------*/
+/*Icones*/
+/*Geral*/
+/*--------------------------------------------------------------------------*/
+a:hover{
+    transition: 1s;
+    border-bottom: solid rgb(1, 28, 148) 5px;
+}
+li{
+    list-style-type: none; 
+}
+
+body{
+    background-color: black ;
+}
+/*--------------------------------------------------------------------------*/
+/*Geral*/
+.Tec{
+    width: 120px;
+    transition: 1s;
+    padding: 1px 10px 1px 10px;
+}
+.Tec:hover{
+    transition: 1s;
+    transform: rotate3d(1, 1, 1, 360deg);
+    
+}
+.row{
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    
+}
+.p-2{
+    background-color: rgb(0, 0, 0);
+   
+}
+.d-flex{
+    background-color:rgb(76, 0, 255);
+}
+.dados_registro_login{
+    height: 100%;
+    margin-top:50px;
+    text-align: center;
+    background-color: #000;
+    text-align: center;
+    
+}
+.dados_login{
+    box-shadow: 0px 1px 15px rgb(68, 0, 255);
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+    color:rgb(68, 0, 255);
+}
+/*Barra de Navegação*/
+    /*--------------------------------------------------------------------------*/
+.NavBar{
+    display: inline-flex;
+    align-self: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+    background-color: #1f1f1f6b;
+    animation: colors 15s ease infinite;
+}
+.nav-item{
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+/*--------------------------------------------------------------------------*/
+/*Barra de Navegação*/
+/*-------------------------------------------------------------------------*/
+/*Texto com video no fundo*/
+
+.conteudo{
+    padding: 5px 5px 5px 5px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(2, 1, 59);
+    margin-top: 10%;
+    color: white;
+    text-size-adjust:auto;
+    
+}
+
+
+/*Texto com video no fundo*/
+/*-------------------------------------------------------------------------*/
+.showcase{
+    text-align: center;
+    width: 100%;
+    height: 25vh;
+    text-shadow: 10px 20px 50px rgb(0, 89, 255);
+    position: relative;
+}
+.showcase video{
+    text-align: center;
+    width: 100%;
+    height: 24vh;
+    position: absolute;
+    top: 0;
+    left:0;
+    object-fit: cover;
+}
+.title{
+    text-align: center;
+    text-shadow: 10px 20px 50px rgb(0, 89, 255);
+    width: 100%;
+    height: 24vh;
+    background-color: #000;
+    font-size: 100px;
+    color:#fff;
+    mix-blend-mode: multiply;
+}
+/*-------------------------------------------------------------------------*/
+/*Texto com video no fundo*/
+
+/*Sobre nos Cartões de perfil*/
+/*-------------------------------------------------------------------------*/
+.cartao{
+    border-radius: 10px;
+    box-shadow: -1px 0px 10px blue;
+    transition: 2s;
+}
+.cartao:hover{
+    transition: 2s;
+    box-shadow: -1px 0px 20px rgb(255, 255, 255);
+    
+    transform:rotate3d(5,5,5,360deg);
+    }
+
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .card {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 240px;
+        height: 320px;
+        background: #ff1d1d;
+        box-shadow: 0 0 0 5px #0009, 0 10px 65px #ff1d1d;
+        transition: 0.5s;
+        margin: 10px;
+    }
+    
+    .card:hover {
+        background: #3bff41;
+        box-shadow: 0 0 0 5px #0009, 0 10px 45px #3bff41, 0 10px 95px #3bff41;
+        transition: 2s;
+    box-shadow: -1px 0px 20px rgb(255, 255, 255);
+    
+    transform:rotate3d(5,5,5,360deg);
+    }
+    
+    .card img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        border-radius: 8px;   
+    }
+    
+    .card h2 {
+        display: none;  
+    }
+    .card .clip {
+        position: absolute;
+        inset: 5px;
+        box-shadow: 0 0 0 2px #061206;
+    }
+    
+    .card .clip span {
+        position: absolute;
+        inset: 0;
+        background: #020d1e;
+        transition: 0.5s;
+        z-index: 1;
+    }
+    
+    .card .clip span:nth-child(1) {
+        clip-path: polygon(0 0, 0 100%, 50% 50%);
+    }
+    
+    .card .clip span:nth-child(2) {
+        clip-path: polygon(100% 0%, 0 0, 50% 50%);
+    }
+    
+    .card .clip span:nth-child(3) {
+        clip-path: polygon(100% 100%, 100% 0, 50% 50%);
+    }
+    
+    .card .clip span:nth-child(4) {
+        clip-path: polygon(0% 100%, 100% 100%, 50% 50%);
+    }
+    
+    .card:hover .clip span:nth-child(1) {
+        clip-path: polygon(0 0, 0 100%, 0% 50%);
+    }
+    
+    .card:hover .clip span:nth-child(2) {
+        clip-path: polygon(100% 0, 0 0, 50% 0%);
+    }
+    
+    .card:hover .clip span:nth-child(3) {
+        clip-path: polygon(100% 0, 100% 52%, 100% 100%);
+    }
+    
+    .card:hover .clip span:nth-child(4) {
+        clip-path: polygon(100% 100%, 49% 100%, 0 100%);
+    }
+/*-------------------------------------------------------------------------*/
+/*Sobre nos Cartões de perfil*/
+
+
+
+/*Resoluções para mobile*/
+/*-------------------------------------------------------------------------*/
+/*Iphone SE*/
+@media (width:375px) and (height:667px) {
+    /*Barra de Navegação*/
+    /*--------------------------------------------------------------------------*/
+  .NavBar{
+    display:grid;
+    height: 46vh;
+  }     
+  .nav-item{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin-bottom:10px;
+  } 
+  .navitems{
+    font-size: 14px;
+  } 
+    /*--------------------------------------------------------------------------*/        
+    /*Barra de Navegação*/     
+     /*--------------------------------------------------------------------------*/
+  .showcase{
+     height: 22vh;
+  }
+  .showcase video{
+     height: 22vh;
+  }
+  .title{
+     height: 23vh;
+     font-size: 50px;
+  } 
+    /*--------------------------------------------------------------------------*/     
+  .form-control{
+      text-align: center;
+  }        
+    /*--------------------------------------------------------------------------*/
+    /*--------------------------------------------------------------------------*/
+  .conteudo{
+      align-items: center;
+      text-align: center;
+      height: 100%;
+      margin-left: 1%;
+      margin-right: 1%;
+  } 
+  .cartao{
+      width: 50px;
+  } 
+  .cartao:hover{
+      width: 150px;
+  }  
+       
+    
+  }
+  /*Iphone XR*/
+  @media (width:414px) and (height: 896px){
+    /*--------------------------------------------------------------------------*/
+  .NavBar{
+       display:grid;
+       height: 35vh;
+  }     
+  .nav-item{
+       width: 100%;
+       align-self: center;
+       text-align: center;
+       margin-bottom:10px;
+   } 
+   .navitems{
+       font-size: 20px;
+   } 
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/      
+   .showcase{
+        height: 24vh;
+   }
+   .showcase video{
+        height: 22vh;
+   }
+   .title{
+        height: 23vh;
+        font-size: 70px;
+   }
+/*--------------------------------------------------------------------------*/   
+/*--------------------------------------------------------------------------*/
+    .conteudo{
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+ /*--------------------------------------------------------------------------*/           
+ /*--------------------------------------------------------------------------*/
+    .cartao{
+        width: 60px;
+    } 
+    .cartao:hover{
+        width: 100px;
+    }  
+ /*--------------------------------------------------------------------------*/
+
+        }
+  /*Iphone 12 Pro*/
+  @media (width:390px) and (height: 844px){
+    /*--------------------------------------------------------------------------*/   
+    .NavBar{
+        display:grid;
+        height: 33vh;
+    }     
+    .nav-item{
+        width: 100%;
+        align-self: center;
+        text-align: center;
+        margin-bottom:10px;
+    } 
+    .navitems{
+        font-size: 14px;
+    }
+    /*--------------------------------------------------------------------------*/           
+    /*--------------------------------------------------------------------------*/         
+    .showcase{
+        height: 24vh;
+    }
+    .showcase video{
+        height: 22vh;
+    }
+    .title{
+        height: 23vh;
+        font-size: 70px;
+    }
+    /*--------------------------------------------------------------------------*/   
+    /*--------------------------------------------------------------------------*/   
+    .conteudo{
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+            
+    }        
+    .cartao{
+        width: 70px;
+    } 
+    .cartao:hover{
+        width: 120px;
+    }       
+  }
+  /*Iphone 14 Pro Max*/
+  @media (width:430px) and (height: 932px){
+    /*--------------------------------------------------------------------------*/
+    .navitems{
+        font-size: 14px;
+    } 
+    .NavBar{
+        display:grid;
+        height: 34vh;
+    }     
+    .nav-item{
+        width: 100%;
+        align-self: center;
+        text-align: center;
+        margin-bottom:20px;
+    } 
+     /*--------------------------------------------------------------------------*/
+    /*--------------------------------------------------------------------------*/
+    .showcase{
+        height: 24vh;
+    }
+    .showcase video{
+        height: 22vh;
+    }
+    .title{
+        height: 23vh;
+        font-size: 80px;
+    }
+    /*--------------------------------------------------------------------------*/
+    /*--------------------------------------------------------------------------*/
+    .conteudo{
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+            
+    } 
+    .cartao{
+        width: 70px;
+    } 
+    .cartao:hover{
+        width: 120px;
+    }                   
+  }
+/*Pixel 7 = ok*/
+@media (width:412px) and (height: 915px){
+    /*--------------------------------------------------------------------------*/
+    .NavBar{
+        display:grid;
+        height: 42vh;
+            }     
+    .nav-item{
+        width: 100%;
+        align-self: center;
+        text-align: center;
+        margin-bottom:10px;
+    } 
+    .navitems{
+        font-size: 14px;
+        
+            } 
+    /*--------------------------------------------------------------------------*/        
+    /*--------------------------------------------------------------------------*/
+    .showcase{
+        height: 25vh;
+    }
+    .showcase video{
+        height: 22vh;
+    }
+    .title{
+        height: 23vh;
+        font-size: 70px;
+    }
+    /*--------------------------------------------------------------------------*/       
+    .conteudo{
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+            
+    }
+    .cartao{
+        width: 70px;
+    } 
+    .cartao:hover{
+        width: 120px;
+    }          
+  }
+  /*Pixel 5 = OK*/
+  @media (width:393px) and (height: 851px){   
+    /*--------------------------------------------------------------------------*/
+    .NavBar{
+        display:grid;
+        height: 23vh;
+            }     
+    .nav-item{
+        width: 100%;
+        align-self: center;
+        text-align: center;
+        margin-bottom:10px;
+    } 
+    .navitems{
+        font-size: 14px;
+            } 
+    /*--------------------------------------------------------------------------*/   
+    /*--------------------------------------------------------------------------*/
+            .showcase{
+                height: 10vh;
+            }
+            .showcase video{
+                height: 22vh;
+            }
+            .title{
+                height: 23vh;
+                font-size: 50px;
+            }
+    /*--------------------------------------------------------------------------*/   
+    /*--------------------------------------------------------------------------*/
+    .conteudo{
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+            
+            }
+            .cartao{
+                width: 30px;
+            } 
+            .cartao:hover{
+                width: 90px;
+            }          
+  }
+
+  
+  
+  /*Sansumg Galaxy S8+ = OK*/
+  @media (width:360px) and (height: 740px){
+   /*--------------------------------------------------------------------------*/
+   .NavBar{
+    display:grid;
+    height: 35vh;
+        }     
+.nav-item{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin-bottom:10px;
+} 
+.navitems{
+    font-size: 14px;
+        } 
+/*--------------------------------------------------------------------------*/        
+/*--------------------------------------------------------------------------*/
+.showcase{
+    height: 24vh;
+}
+.showcase video{
+    height: 22vh;
+}
+.title{
+    height: 23vh;
+    font-size: 50px;
+}
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+    .conteudo{
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+            }
+    .cartao{
+        width: 70px;
+    } 
+    .cartao:hover{
+        width: 120px;
+    }       
+  }
+
+
+  /*Sansumg Galaxy S20 Ultra = OK*/
+  @media (width:412px) and (height: 915px){
+    /*--------------------------------------------------------------------------*/
+   .NavBar{
+    display:grid;
+    height: 30vh;
+        }     
+.nav-item{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin-bottom:10px;
+} 
+.navitems{
+    font-size: 14px;
+        } 
+/*--------------------------------------------------------------------------*/        
+/*--------------------------------------------------------------------------*/
+.showcase{
+    height: 24vh;
+}
+.showcase video{
+    height: 22vh;
+}
+.title{
+    height: 23vh;
+    font-size: 70px;
+}
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+    .conteudo{
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+            
+            } 
+    .cartao{
+        width: 70px;
+    } 
+    .cartao:hover{
+        width: 120px;
+    }      
+  }
+  /*iPad Mini*/
+  @media(width:768px) and (height:1024px){
+    /*--------------------------------------------------------------------------*/
+      
+.nav-item{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+} 
+.navitems{
+    font-size: 14px;
+        } 
+/*--------------------------------------------------------------------------*/ 
+        
+/*--------------------------------------------------------------------------*/
+.showcase{
+    height: 24vh;
+}
+.showcase video{
+    height: 22vh;
+}
+.title{
+    height: 23vh;
+    font-size: 80px;
+}
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+    .conteudo{
+        font-size: 25px;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+            
+            }  
+            .cartao{
+                width: 70px;
+            } 
+            .cartao:hover{
+                width: 120px;
+            } 
+  }
+  /*Ipad Air = OK*/
+  @media (width:820px) and (height:1180px) {
+    /*--------------------------------------------------------------------------*/
+       
+.nav-item{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+   
+} 
+.navitems{
+    font-size: 14px;
+        } 
+/*--------------------------------------------------------------------------*/        
+/*--------------------------------------------------------------------------*/
+.showcase{
+    height: 22vh;
+}
+.showcase video{
+    height: 22.6vh;
+}
+.title{
+    height: 23vh;
+    font-size: 80px;
+}
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+    .conteudo{
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+            }
+     
+     .cartao{
+        width: 70px;
+            } 
+     .cartao:hover{
+        width: 120px;
+            }      
+  }
+  /*Ipad Pro*/
+  @media(width:1024px) and (height:1366px){
+    /*--------------------------------------------------------------------------*/
+       
+.nav-item{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin-bottom:10px;
+} 
+.navitems{
+    font-size: 14px;
+        } 
+/*--------------------------------------------------------------------------*/        
+/*--------------------------------------------------------------------------*/
+.showcase{
+    height: 23vh;
+}
+.showcase video{
+    height: 22vh;
+}
+.title{
+    height: 23vh;
+    font-size: 120px;
+}
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+    .conteudo{
+        font-size: 28px;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+            }
+            .cartao{
+                width: 70px;
+            } 
+            .cartao:hover{
+                width: 120px;
+            } 
+  }
+  /*Surface Pro 7*/
+  @media(width:912px) and (height:1368px){
+    /*--------------------------------------------------------------------------*/
+        
+.nav-item{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin-bottom:10px;
+} 
+.navitems{
+    font-size: 14px;
+        } 
+/*--------------------------------------------------------------------------*/        
+/*--------------------------------------------------------------------------*/
+.showcase{
+    height: 25vh;
+}
+.showcase video{
+    height: 22vh;
+}
+.title{
+    height: 23vh;
+    font-size: 120px;
+}
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+    .conteudo{
+        font-size: 28px;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+            }
+            .cartao{
+                width: 70px;
+            } 
+            .cartao:hover{
+                width: 120px;
+            } 
+  }
+
+  /*Duo Surface = ok*/
+    @media (width:540px) and (height:720px){
+       /*--------------------------------------------------------------------------*/     
+.nav-item{
+    font-size: 28px;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin-bottom:10px;
+} 
+.navitems{
+    font-size: 14px;
+        } 
+/*--------------------------------------------------------------------------*/        
+/*--------------------------------------------------------------------------*/
+.showcase{
+    height: 22vh;
+}
+.showcase video{
+    height: 22vh;
+}
+.title{
+    height: 23vh;
+    font-size: 70px;
+}
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/     
+        .conteudo{
+            align-items: center;
+            text-align: center;
+            height: 100%;
+            margin-left: 1%;
+            margin-right: 1%;
+                }
+                .cartao{
+                    width: 70px;
+                } 
+                .cartao:hover{
+                    width: 120px;
+                }  
+    }
+
+
+
+
+
+  
+  /*Galaxy Fold = OK*/
+  @media (width:280px) and (height: 653px){
+   /*--------------------------------------------------------------------------*/
+   .NavBar{
+    display:grid;
+    height: 42vh;
+        }     
+.nav-item{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin-bottom:10px;
+} 
+.navitems{
+    font-size: 14px;
+        } 
+/*--------------------------------------------------------------------------*/        
+/*--------------------------------------------------------------------------*/
+.showcase{
+    height: 26vh;
+}
+.showcase video{
+    height: 22vh;
+}
+.title{
+    height: 23vh;
+    font-size: 50px;
+}
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+    .conteudo{
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+            
+            }   
+    .cartao{
+        width: 70px;
+    } 
+    .cartao:hover{
+        width: 120px;
+    }
+           
+    
+  }
+
+  /*Samsung Galaxy A5/71*/
+  @media(width:412px) and (height:914px){ 
+    /*--------------------------------------------------------------------------*/
+   .NavBar{
+    display:grid;
+    height: 29vh;
+        }     
+.nav-item{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin-bottom:10px;
+} 
+.navitems{
+    font-size: 14px;
+        } 
+/*--------------------------------------------------------------------------*/        
+/*--------------------------------------------------------------------------*/
+.showcase{
+    height: 25vh;
+}
+.showcase video{
+    height: 22vh;
+}
+.title{
+    height: 23vh;
+    font-size: 50px;
+}
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+    .conteudo{
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }       
+     .cartao{
+         width: 70px;
+    } 
+     .cartao:hover{
+         width: 120px;
+    } 
+  }
