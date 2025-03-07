@@ -9,8 +9,10 @@ Sendo visto como um forum para compartilhar os dados relacionados ao tema "Icebe
 ## 🛠️ Instalação
 
 1. Instale o **XAMPP**.
-2. Habilite o **SQL** e clique em "Admin".
-3. Importe o arquivo **.sql** como banco de dados e nomeie-o como **"iceberg"**.
+2. Coloque a pasta no /htdocs/ do **XAMPP**
+3. abra no endereço IP, com o nome da pasta
+4. Habilite o **SQL** e clique em "Admin".
+5. Importe o arquivo **.sql** como banco de dados e nomeie-o como **"iceberg"**.
 
 ---
 
